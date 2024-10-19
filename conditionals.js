@@ -1,7 +1,10 @@
-const a = 10 ;
-if(a==10){
-    console.log("Value of a is True")
+TotalNum = 57 + 97 + 75 + 99 ;
+percentage = TotalNum / 400 * 100;
+if(percentage >= 85){
+    a = "Passed"
+    console.log(a)
 }
 else{
-    console.log("False Statement")
+    a = "Try Again"
+    console.log(a)
 }
