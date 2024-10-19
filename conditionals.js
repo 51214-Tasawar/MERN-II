@@ -1,4 +1,4 @@
-TotalNum = 57 + 97 + 599 + 99 ;
+TotalNum = 57 + 97 + 99 + 99 ;
 percentage = TotalNum / 400 * 100;
 if(percentage >= 85 && percentage<=100){
     a = "Passed"
@@ -19,5 +19,5 @@ case "Passed" :
         console.log("Invalid Input");
         break;
 }
-const b= a>= 85 ?  "Please Fill out this Form":  "Your not able not able fill out this form";
+const b = percentage>= 85 && percentage<=100 ?  "Please Fill out this Form":  "Your not able not able fill out this form";
  console.log(b)
