@@ -1,18 +1,12 @@
-const Info ={
-    name :"Person1",
-    age : 40  ,
-    desination:"employee",
-    add:{
-        city:"Lahore",
-        Provinace :"Punjab",
-        Country:"Pakistan"
-    }
+const Empolyees =[
+    { id : 110, name :"Person-1" ,Position:"Senior-HR",Department :"HR-M", Salary : 50000},
+    { id : 12 , name :"Person-2" ,Position:"Developer",Department :"Development", Salary : 90000},
+    { id : 14, name :"Person-3" ,Position:"Team Lead",Department :"Development", Salary : 50000},
+]
+Info=([{name , Position}])=>{
+ for(i=0; i<Empolyees.length; i++)
+ {
+    console.log(`Employees Name is -> ${Empolyees[i].name} and his position is -> ${Empolyees[i].Position}`)
+ }
 }
-const Obj2 = Info ; // Object also create Shallow Copy Just Like Array 
-// console.log(Obj2)
-//  Obj2.age = 45;
-//  console.log(Obj2)
-//  console.log(Info)
- const {name , age , add:{city}} = Obj2// Desturcturing of Object and object with-in Object 
- console.log(`My Name is ${name} and I am ${age} Year Old `)
- console.log(`I am living in ${city} City`)
+Info(Empolyees)
