@@ -27,6 +27,17 @@ mergeObjects=(defaultsetting , usersetting)=>{
 // const merge = {...defaultsetting , ...usersetting} // Using Spread Operator
 console.log(merge)
  }
- console.log(mergeObjects( defaultsetting , usersetting ))
+ // console.log(mergeObjects( defaultsetting , usersetting ))
+  const UserDetail ={
+    id : 110 ,
+    name :"Person1" ,
+    email:"abc@gmail.com",
+    theme: "dark" ,
+    notification: true ,
+    Language:"English"
+  }
 
- 
+  UserInfo=({id , name , email})=>{
+   console.log(`The ${name} Has the Id ${id} . And His Contact Email is ${email}`)
+  }
+  console.log(UserInfo(UserDetail))
