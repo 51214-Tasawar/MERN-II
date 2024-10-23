@@ -1,8 +1,8 @@
-const Empolyees =[
-    { id : 110, name :"Person-1" ,Position:"Senior-HR",Department :"HR-M", Salary : 50000},
-    { id : 12 , name :"Person-2" ,Position:"Developer",Department :"Development", Salary : 90000},
-    { id : 14, name :"Person-3" ,Position:"Team Lead",Department :"Development", Salary : 50000},
-] 
+// //const Empolyees =[
+//     { id : 110, name :"Person-1" ,Position:"Senior-HR",Department :"HR-M", Salary : 50000},
+//     { id : 12 , name :"Person-2" ,Position:"Developer",Department :"Development", Salary : 90000},
+//     { id : 14, name :"Person-3" ,Position:"Team Lead",Department :"Development", Salary : 50000},
+//] 
 // Info=([{name , Position}])=>{ // Task-1 Completet You are given an array of employee objects. Each employee object has the following properties: id, name, position, salary, and department. Your task is to write a function filterEmployeeInfo that returns a new array of employee objects but only with name and position fields for each employee. Use object destructuring and the rest operato
 //  for(i=0; i<Empolyees.length; i++)
 //  {
@@ -83,3 +83,10 @@ const Empolyees =[
 // }
 // console.log(info(order))
 // }
+person1 = {name :"Person_1", age :30 , City:"Lahore"  }
+person2 = {name :"Person_2", age :25 , City :"MuzaffarGarh"}
+
+Swap=(person1 , person2)=>{
+   console.log(person1.name)
+}
+Swap(person1 , person2);
