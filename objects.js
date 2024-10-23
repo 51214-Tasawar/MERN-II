@@ -44,19 +44,42 @@ const Empolyees =[
 // const {id , name , email ,...preference}=UserDetail ;
 // console.log(preference)
 
-const Product=[
-    {id:1 , name :"Laptop", Category:"Eletronic" , Color:"Yellow" , price :250000},
-    {id:2 , name :"phone", Category:"Eletronic" , Color:"Diamond" , price :150000},
-    {id:3 , name :"Head-phone", Category:"Eletronic" , Color:"Black" , price :2500},
-    {id:14 , name :"bag", Category:"clothing" , Color:"Black" , price :4000},
-    {id:5, name :"Trouser-shrit", Category:"Clothing" , Color:"Brown" , price :5000},
-]
+// {
+//     const Product=[
+//     {id:1 , name :"Laptop", Category:"Eletronic" , Color:"Yellow" , price :250000},
+//     {id:2 , name :"phone", Category:"Eletronic" , Color:"Diamond" , price :150000},
+//     {id:3 , name :"Head-phone", Category:"Eletronic" , Color:"Black" , price :2500},
+//     {id:14 , name :"bag", Category:"clothing" , Color:"Black" , price :4000},
+//     {id:5, name :"Trouser-shrit", Category:"Clothing" , Color:"Brown" , price :5000},
+// ]
 
-function info(Product , id , newfeilds){
-   return Product.map((value)=>{
-    if(value.id == id)
-        return {...value , ...newfeilds}
-    return value ;
-   })
-}
-console.log(info(Product , 5  , {id:12,name:"Air-bag" , color:"red"}))
+// function info(Product , id , newfeilds){
+//    return Product.map((value)=>{
+//     if(value.id == id)
+//         return {...value , ...newfeilds}
+//     return value ;
+//    })
+// }
+// console.log(info(Product , 5  , {id:12,name:"Air-bag" , color:"red"}))
+// }
+// {
+//     const order=[
+//     {
+//         OrderId:1 , CustomerName:"Person-1" , Amount : 2000 , Product:[
+//      {id:101 , product:"Head-Phone" , price : 1500},
+//      {id:102 , product:"Mouse" , price:500}
+//     ]
+// } ,
+// {
+//     OrderId:2 , CustomerName : "Person-2" , Amount : 5000 , Product:[
+//         {id:103 , product:"Trouser-Shirt", price:5000}
+//     ] 
+// }
+// ]
+// info=(order)=>{
+// return order.map((value)=>{
+// console.log(`OrderId Is -> ${value.OrderId} And Customer Name is ${value.CustomerName} and ${value.Product.price}`)
+// })
+// }
+// console.log(info(order))
+// }
