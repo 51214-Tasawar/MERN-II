@@ -86,7 +86,16 @@
 person1 = {name :"Person_1", age :30 , City:"Lahore"  }
 person2 = {name :"Person_2", age :25 , City :"MuzaffarGarh"}
 
-Swap=(person1 , person2)=>{
-   console.log(person1.name)
-}
-Swap(person1 , person2);
+// Swap=(person1 , person2)=>{
+//    {person1 , {name:"Person_2" , age :25} }
+//    {person2 , {name:"Person_1" , age :30} }
+// }
+tempName = person1.name ;
+tempage = person1.age ;
+person1.name= person2.name ;
+person1.age = person2.age ;
+person2.name = tempName ;
+person2.age = tempage ;
+
+console.log(person1)
+console.log(person2)
