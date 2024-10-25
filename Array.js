@@ -1,5 +1,4 @@
-{
-   arr =["Valvo" , "Honda city" , "Suzuki" , "Wagnor"]
-   arr[3] = "BMW";
-    console.log(arr[3])
-}
+const arr = ["person"  , "Number" , "yellow" , " Animal"]
+const fruits =["Apple", "Banana" , "Donouts"  , "Manago" ,"zabre" ]
+console.log(fruits.sort())
+// console.log(arr.length);
