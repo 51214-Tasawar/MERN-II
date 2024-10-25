@@ -1,5 +1,5 @@
-const Arr = [1 , 2, 3, 4 ,5, 6];
-console.log(Arr[2])
-
-const [a,b,...c]=Arr ;
-console.log(c)   // Destructurng Of Array 
+{
+   arr =["Valvo" , "Honda" , "city" , "Suzuki" , "Wagnor"]
+    console.log(arr[3])
+}
+console.log(arr[2])
