@@ -1,4 +1,4 @@
- a = 13;
+ a = 5;
 
  switch(a){
     case 1 :
@@ -35,10 +35,14 @@
         console.log("This Month of November") ;
         break ;
         case 12:
-            console.log("This Month of December") ;
-            break ;
-            default :
-            console.log("Invalid Input") ;
-            break ;
+        console.log("This Month of December") ;
+        break ;
+        default :
+        console.log("Invalid Input") ;
+        break ;
     
  }
+
+
+  b = ( a == 10||11||12||1||2 ) ? b = "This is cold Session ": b ="This Is Hot Session" ;
+  console.log(b);
