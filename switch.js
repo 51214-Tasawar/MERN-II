@@ -1,6 +1,6 @@
  a = 10 ;
 
- switch(a){
+ switch(true){
     case 1 :
         console.log("This Month of January") ;
         break ;
@@ -28,11 +28,15 @@
         case 9 :
         console.log("This Month of september") ;
         break ;
-        case 1 :
+        case 10:
         console.log("This Month of January") ;
         break ;
-        case 1 :
+        case 11:
         console.log("This Month of January") ;
         break ;
+        case 12:
+            console.log("This Month of January") ;
+            break ;
+            default :
     
  }
