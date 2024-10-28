@@ -35,7 +35,7 @@
         console.log("This Month of November") ;
         break ;
         case 12:
-            console.log("This Month of January") ;
+            console.log("This Month of December") ;
             break ;
             default :
             console.log("Invalid Input") ;
