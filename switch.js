@@ -1,4 +1,4 @@
- a = 10 ;
+ a = 13;
 
  switch(a){
     case 1 :
