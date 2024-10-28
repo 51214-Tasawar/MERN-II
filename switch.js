@@ -29,10 +29,10 @@
         console.log("This Month of september") ;
         break ;
         case 10:
-        console.log("This Month of o") ;
+        console.log("This Month of october") ;
         break ;
         case 11:
-        console.log("This Month of January") ;
+        console.log("This Month of November") ;
         break ;
         case 12:
             console.log("This Month of January") ;
