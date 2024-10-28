@@ -1,6 +1,6 @@
  a = 10 ;
 
- switch(true){
+ switch(a){
     case 1 :
         console.log("This Month of January") ;
         break ;
@@ -29,7 +29,7 @@
         console.log("This Month of september") ;
         break ;
         case 10:
-        console.log("This Month of January") ;
+        console.log("This Month of o") ;
         break ;
         case 11:
         console.log("This Month of January") ;
@@ -38,5 +38,7 @@
             console.log("This Month of January") ;
             break ;
             default :
+            console.log("Invalid Input") ;
+            break ;
     
  }
