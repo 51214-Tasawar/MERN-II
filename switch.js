@@ -44,5 +44,5 @@
  }
 
 
-  b = ( a == 10||11||12||1||2 ) ? b = "This is cold Session ": b ="This Is Hot Session" ;
+  b = ( a == 10||a==11||a==12||a==1||a==2 ) ?  "This is cold Session ": "This Is Hot Session" ;
   console.log(b);
