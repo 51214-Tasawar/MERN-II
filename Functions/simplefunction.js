@@ -14,8 +14,8 @@
 
 // <------------- Return Function ---------->
 
-function addition(a , b , c){
-return console.log(`Total marks are ${a + b + c} out 300 .`)
-}
+// function addition(a , b , c){
+// return console.log(`Total marks are ${a + b + c} out 300 .`)
+// }
 
-addition(12,34,56);
+// addition(12,34,56);
