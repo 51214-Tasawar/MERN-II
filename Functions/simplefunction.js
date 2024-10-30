@@ -19,3 +19,9 @@
 // }
 
 // addition(12,34,56);
+
+Info=()=>{
+    console.log("Arrow Function Called");
+}
+
+Info()
