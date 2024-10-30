@@ -20,8 +20,8 @@
 
 // addition(12,34,56);
 
-Info=()=>{
-    console.log("Arrow Function Called");
+Info=(a ,b )=>{
+    console.log(`Result is some of a and b ${ a + b}`);
 }
 
-Info()
+Info(10 ,20)
