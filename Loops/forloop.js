@@ -4,7 +4,12 @@ i=0
 //     console.log(`${a} * ${i} = ${a*i}`)
 // }
 
-while (i<=10) {
+ do{  
     console.log(`${a} * ${i} = ${a*i}`)
     i++ ;
+}while (i<=10)
+
+arr = [12 ,"Developers" , "Cars" , "Things"]
+for(value of  arr){
+    console.log(value)
 }
