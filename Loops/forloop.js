@@ -1,0 +1,4 @@
+const a = 20 ;
+for(i=0 ; i<=10; i++){
+    console.log(`${a} * ${i} = ${a*i}`)
+}
