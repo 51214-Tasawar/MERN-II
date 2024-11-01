@@ -1,5 +1,6 @@
 const arr = [1 , undefined , null , "Person1" , "Aquwa"] ;
 
-const [a ,b,c,d,e]=arr
+const [a ,b,...e]=arr // DESTRUCTURING OF ARRAY
 console.log(e) ;
+arr.sort(); // sorting method
 console.log(arr);
