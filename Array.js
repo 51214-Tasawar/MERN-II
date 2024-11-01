@@ -1,10 +1,3 @@
-{ //Sort And Length Properties
-//     const arr = ["person"  , "Number" , "yellow" , " Animal"]
-// const fruits =["Apple", "Banana" , "Donouts"  , "Manago" ,"zabre" ]
-// console.log(fruits.sort())  
-// console.log(arr.length);
-// 
-}
-{
-    
-}
+const arr = [1 , undefined , null , "Person1" , "Aquwa"] ;
+
+console.log(arr);
