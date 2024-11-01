@@ -5,3 +5,9 @@ console.log(e) ;
 // arr.sort(); // sorting method
 arr.shift();  // remove the frist value of array
 console.log(arr);
+arr.slice()
+
+for(value of arr){
+    console.log(value);
+    
+}
