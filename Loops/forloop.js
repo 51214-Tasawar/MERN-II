@@ -13,3 +13,7 @@ arr = [12 ,"Developers" , "Cars" , "Things"]
 for(value of  arr){
     console.log(value)
 }
+ a = 12 ;
+ for(i=0; i<=10; i++){
+    
+ }
