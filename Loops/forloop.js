@@ -15,5 +15,5 @@ for(value of  arr){
 }
  a = 12 ;
  for(i=0; i<=10; i++){
-    
+    console.log(a*i)
  }
