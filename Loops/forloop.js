@@ -13,7 +13,7 @@ arr = [12 ,"Developers" , "Cars" , "Things"]
 for(value of  arr){
     console.log(value)
 }
- a = 12 ;
+ ab = 12 ;
  for(i=0; i<=10; i++){
-    console.log(a*i)
+   console.log(`${ab} * ${i} = ${ab* i}`);
  }
